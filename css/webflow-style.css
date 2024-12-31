@@ -294,54 +294,54 @@ pre.w-code-block code {
   display: contents;
 }
 
-.w-webflow-badge, .w-webflow-badge * {
-  z-index: auto;
-  visibility: visible;
-  box-sizing: border-box;
-  float: none;
-  clear: none;
-  box-shadow: none;
-  opacity: 1;
-  direction: ltr;
-  font-family: inherit;
-  font-weight: inherit;
-  color: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  font-style: inherit;
-  font-variant: inherit;
-  text-align: inherit;
-  letter-spacing: inherit;
-  -webkit-text-decoration: inherit;
-  text-decoration: inherit;
-  text-indent: 0;
-  text-transform: inherit;
-  text-shadow: none;
-  font-smoothing: auto;
-  vertical-align: baseline;
-  cursor: inherit;
-  white-space: inherit;
-  word-break: normal;
-  word-spacing: normal;
-  word-wrap: normal;
-  background: none;
-  border: 0 #0000;
-  border-radius: 0;
-  width: auto;
-  min-width: 0;
-  max-width: none;
-  height: auto;
-  min-height: 0;
-  max-height: none;
-  margin: 0;
-  padding: 0;
-  list-style-type: disc;
-  transition: none;
-  display: block;
-  position: static;
-  inset: auto;
-  overflow: visible;
-  transform: none;
+.w-webflow-badge, .w-webflow-badge > img {
+  box-sizing: unset;
+  width: unset;
+  height: unset;
+  max-height: unset;
+  max-width: unset;
+  min-height: unset;
+  min-width: unset;
+  margin: unset;
+  padding: unset;
+  float: unset;
+  clear: unset;
+  border: unset;
+  border-radius: unset;
+  background: unset;
+  background-image: unset;
+  background-position: unset;
+  background-size: unset;
+  background-repeat: unset;
+  background-origin: unset;
+  background-clip: unset;
+  background-attachment: unset;
+  background-color: unset;
+  box-shadow: unset;
+  transform: unset;
+  direction: unset;
+  font-family: unset;
+  font-weight: unset;
+  color: unset;
+  font-size: unset;
+  line-height: unset;
+  font-style: unset;
+  font-variant: unset;
+  text-align: unset;
+  letter-spacing: unset;
+  -webkit-text-decoration: unset;
+  text-decoration: unset;
+  text-indent: unset;
+  text-transform: unset;
+  list-style-type: unset;
+  text-shadow: unset;
+  vertical-align: unset;
+  cursor: unset;
+  white-space: unset;
+  word-break: unset;
+  word-spacing: unset;
+  word-wrap: unset;
+  transition: unset;
 }
 
 .w-webflow-badge {
@@ -349,9 +349,10 @@ pre.w-code-block code {
   cursor: pointer;
   box-shadow: 0 0 0 1px #0000001a, 0 1px 3px #0000001a;
   visibility: visible !important;
+  opacity: 1 !important;
   z-index: 2147483647 !important;
   color: #aaadb0 !important;
-  opacity: 1 !important;
+  overflow: unset !important;
   background-color: #fff !important;
   border-radius: 3px !important;
   width: auto !important;
@@ -364,12 +365,12 @@ pre.w-code-block code {
   display: inline-block !important;
   position: fixed !important;
   inset: auto 12px 12px auto !important;
-  overflow: visible !important;
   transform: none !important;
 }
 
 .w-webflow-badge > img {
-  visibility: visible !important;
+  position: unset;
+  visibility: unset !important;
   opacity: 1 !important;
   vertical-align: middle !important;
   display: inline-block !important;
@@ -2958,7 +2959,7 @@ figcaption {
   text-transform: none;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 64px;
+  font-size: 57px;
   line-height: 80px;
   display: block;
 }
@@ -3121,15 +3122,17 @@ figcaption {
   color: #0088e9;
 }
 
-.work-experience-grid-2 {
+.work-experience-grid-4 {
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   grid-template: ". . . ."
-  / 1fr 1fr;
+  / 1fr;
+  grid-auto-columns: 1fr;
   margin-bottom: 140px;
+  display: grid;
 }
 
-.container-4, .container-5 {
+.container-4 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -3139,6 +3142,18 @@ figcaption {
   margin-right: auto;
   transition: opacity .2s;
   display: flex;
+}
+
+.container-8 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: opacity .2s;
+  display: block;
 }
 
 .cell-7 {
@@ -3280,11 +3295,16 @@ figcaption {
 
 .button-4.image-2 {
   cursor: pointer;
+  background-color: #e6e6e6;
   border-width: 2px;
   border-radius: 100px;
   padding: 10px;
   bottom: 0;
   left: 451px;
+}
+
+.button-4.image-2:active {
+  background-color: #1a1b1f;
 }
 
 .image {
@@ -3295,6 +3315,81 @@ figcaption {
 .image-2 {
   border: .5px solid #000;
   border-radius: 15px;
+}
+
+.list {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  margin-right: 0;
+  padding-right: 40px;
+  display: block;
+  position: static;
+}
+
+.heading-6 {
+  text-align: left;
+  flex: 0 auto;
+  padding-left: 0;
+  text-decoration: none;
+}
+
+.list-item, .list-item-2, .list-item-3, .list-item-4, .list-item-5 {
+  font-size: 20px;
+}
+
+.link-4 {
+  outline-offset: 0px;
+  cursor: pointer;
+  outline: 3px #1a1b1f;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.link-4:hover {
+  color: #0088e9;
+}
+
+.link-5 {
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.link-5:hover {
+  color: #0088e9;
+}
+
+.link-6 {
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.link-6:hover {
+  color: #0088e9;
+}
+
+.link-7 {
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.link-7:hover {
+  color: #0088e9;
+}
+
+.link-8 {
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.link-8:hover {
+  color: #0088e9;
 }
 
 @media screen and (max-width: 991px) {
@@ -3501,7 +3596,7 @@ figcaption {
     justify-content: center;
   }
 
-  .work-experience-grid-2 {
+  .work-experience-grid-4 {
     grid-template: ". ."
                    ". ."
                    / 1fr 1fr;
@@ -3699,13 +3794,13 @@ figcaption {
     line-height: 64px;
   }
 
-  .work-experience-grid-2 {
+  .work-experience-grid-4 {
     flex-direction: column;
     align-items: center;
     display: flex;
   }
 
-  .container-4, .container-5 {
+  .container-4, .container-8 {
     text-align: center;
   }
 
