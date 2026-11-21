@@ -2948,8 +2948,8 @@ figcaption {
 }
 
 .name-text-2 {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 50px;
+  font-weight: 700;
   line-height: 34px;
   transition: opacity .2s;
 }
@@ -3393,584 +3393,6 @@ figcaption {
 }
 
 @media screen and (max-width: 991px) {
-  .styleguide-block {
-    text-align: center;
-  }
-
-  .heading-jumbo {
-    font-size: 56px;
-    line-height: 70px;
-  }
-
-  .section.cc-contact {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .button {
-    justify-content: center;
-  }
-
-  .logo-link.w--current {
-    flex: 1;
-  }
-
-  .menu-icon {
-    display: block;
-  }
-
-  .navigation-item {
-    text-align: center;
-    padding: 15px 30px;
-    transition: background-color .4s, opacity .4s, color .4s;
-  }
-
-  .navigation-item:hover {
-    background-color: #f7f8f9;
-  }
-
-  .navigation-item:active {
-    background-color: #eef0f3;
-  }
-
-  .navigation-items {
-    background-color: #fff;
-  }
-
-  .navigation {
-    padding: 25px 30px;
-  }
-
-  .menu-button {
-    padding: 0;
-  }
-
-  .menu-button.w--open {
-    background-color: #0000;
-  }
-
-  .navigation-wrap {
-    margin-right: 0;
-  }
-
-  .work-experience-grid {
-    grid-template: ". ."
-                   ". ."
-                   / 1fr 1fr;
-  }
-
-  .works-grid {
-    flex-direction: column;
-    align-items: stretch;
-    display: flex;
-  }
-
-  .carrer-headline-wrap {
-    width: auto;
-  }
-
-  .work-image {
-    margin-bottom: 30px;
-  }
-
-  .contact {
-    width: auto;
-    padding: 30px 50px 40px;
-  }
-
-  .contact-headline, .contact-form-wrap {
-    width: 100%;
-  }
-
-  .about-intro-grid {
-    grid-row-gap: 50px;
-    text-align: center;
-    grid-template: "."
-                   "."
-                   / 1fr;
-  }
-
-  .about-head-text-wrap {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .service-name-text {
-    font-size: 24px;
-    line-height: 42px;
-  }
-
-  .skillset-wrap {
-    padding-right: 0;
-  }
-
-  .services-items-grid {
-    grid-row-gap: 0px;
-    grid-template: "."
-                   "."
-                   / 1fr;
-    padding-top: 0;
-  }
-
-  .skills-grid {
-    grid-row-gap: 50px;
-    text-align: center;
-    grid-template: "."
-                   "."
-                   / 1fr;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .personal-features-grid {
-    text-align: center;
-    grid-template: "."
-                   "."
-                   "."
-                   "."
-                   / 1fr;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .social-media-heading {
-    text-align: center;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .social-media-grid {
-    grid-template: ". ."
-                   ". ."
-                   ". ."
-                   ". ."
-                   / 1fr 1fr;
-  }
-
-  .project-overview-grid {
-    grid-row-gap: 50px;
-    text-align: center;
-    grid-template: "."
-                   "."
-                   "."
-                   / 1fr;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .project-description-grid {
-    grid-row-gap: 50px;
-    text-align: center;
-    grid-template: "."
-                   "."
-                   / 1fr;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .email-section {
-    margin-bottom: 160px;
-  }
-
-  .email-link {
-    font-size: 36px;
-    line-height: 54px;
-  }
-
-  .quick-stack-2 {
-    position: relative;
-  }
-
-  .heading-jumbo-2 {
-    font-size: 56px;
-    line-height: 70px;
-  }
-
-  .button-2, .button-3 {
-    justify-content: center;
-  }
-
-  .work-experience-grid-4 {
-    grid-template: ". ."
-                   ". ."
-                   / 1fr 1fr;
-  }
-
-  .contact-2 {
-    width: auto;
-    padding: 30px 50px 40px;
-  }
-
-  .section-2.cc-contact {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .button-4 {
-    justify-content: center;
-    left: 227px;
-  }
-
-  .button-4.image-2 {
-    left: 307px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .heading-jumbo-small {
-    font-size: 30px;
-    line-height: 52px;
-  }
-
-  .rich-text {
-    text-align: left;
-    width: 90%;
-    max-width: 470px;
-  }
-
-  .container {
-    text-align: center;
-  }
-
-  .heading-jumbo {
-    font-size: 50px;
-    line-height: 64px;
-  }
-
-  .section {
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-
-  .section.cc-contact {
-    padding: 15px;
-  }
-
-  .paragraph-bigger {
-    font-size: 16px;
-    line-height: 28px;
-  }
-
-  .logo-link {
-    padding-left: 0;
-  }
-
-  .navigation {
-    padding: 20px 30px;
-  }
-
-  .work-experience-grid {
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-  }
-
-  .work-position-wrap {
-    margin-bottom: 40px;
-  }
-
-  .project-name-link {
-    font-size: 16px;
-    line-height: 28px;
-  }
-
-  .text-field.cc-textarea {
-    text-align: left;
-  }
-
-  .contact {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .contact-form-grid {
-    grid-column-gap: 30px;
-    grid-template: "."
-                   "."
-                   "."
-                   / 1fr;
-  }
-
-  .contact-form {
-    flex-direction: column;
-    display: flex;
-  }
-
-  .contact-form-wrap {
-    text-align: left;
-  }
-
-  .footer-wrap {
-    text-align: center;
-    flex-direction: column;
-  }
-
-  .webflow-link {
-    margin-bottom: 15px;
-  }
-
-  .footer-links {
-    flex-direction: column;
-  }
-
-  .footer-item {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 0;
-  }
-
-  .about-head-text-wrap {
-    width: 70%;
-    max-width: 470px;
-  }
-
-  .skills-grid {
-    grid-template-columns: 1fr;
-    width: 70%;
-    max-width: 470px;
-  }
-
-  .personal-features-grid, .social-media-heading {
-    width: 70%;
-    max-width: 470px;
-  }
-
-  .social-media-grid {
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .project-overview-grid {
-    width: 80%;
-    max-width: 470px;
-    margin-top: 90px;
-    margin-bottom: 95px;
-  }
-
-  .project-description-grid {
-    width: 70%;
-    max-width: 470px;
-    margin-top: 90px;
-    margin-bottom: 85px;
-  }
-
-  .detail-image {
-    margin-bottom: 15px;
-  }
-
-  .email-section {
-    width: 80%;
-    max-width: 470px;
-    margin-top: 120px;
-    margin-bottom: 120px;
-  }
-
-  .email-link {
-    font-size: 36px;
-    line-height: 54px;
-  }
-
-  .utility-page-wrap {
-    padding: 15px;
-  }
-
-  ._404-wrap {
-    padding: 30px;
-  }
-
-  .container-2 {
-    text-align: center;
-  }
-
-  .heading-jumbo-2 {
-    font-size: 50px;
-    line-height: 64px;
-  }
-
-  .work-experience-grid-4 {
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-  }
-
-  .container-4, .container-8 {
-    text-align: center;
-  }
-
-  .contact-2 {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .container-7 {
-    text-align: center;
-  }
-
-  .section-2 {
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-
-  .section-2.cc-contact {
-    padding: 15px;
-  }
-
-  .button-4 {
-    left: 130px;
-  }
-
-  .button-4.image-2 {
-    left: 202px;
-  }
-}
-
-@media screen and (max-width: 479px) {
-  .rich-text {
-    width: 100%;
-    max-width: none;
-  }
-
-  .heading-jumbo {
-    font-size: 36px;
-    line-height: 48px;
-  }
-
-  .navigation {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .menu-button, .menu-button.w--open {
-    flex: none;
-  }
-
-  .contact {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .contact-form, .contact-form-wrap, .footer-wrap {
-    flex-direction: column;
-  }
-
-  .about-head-text-wrap {
-    width: 100%;
-    max-width: none;
-  }
-
-  .skills-grid {
-    grid-template-columns: 1fr;
-    width: 100%;
-    max-width: none;
-  }
-
-  .personal-features-grid, .social-media-heading, .project-overview-grid, .project-description-grid {
-    width: 100%;
-    max-width: none;
-  }
-
-  .email-section {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: none;
-    display: flex;
-  }
-
-  .email-link {
-    font-size: 30px;
-    line-height: 46px;
-  }
-
-  .cell-6 {
-    text-align: center;
-  }
-
-  .quick-stack-2 {
-    text-align: left;
-    object-fit: fill;
-    flex: 0 auto;
-    order: 0;
-    padding: 0 0 26px;
-    position: relative;
-    left: 30px;
-  }
-
-  .heading-jumbo-2 {
-    font-size: 36px;
-    line-height: 48px;
-  }
-
-  .bold-text {
-    font-size: 30px;
-  }
-
-  .contact-2 {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .button-4 {
-    left: 1px;
-  }
-
-  .button-4.image-2 {
-    bottom: 0;
-    left: 104px;
-  }
-}
-
-#w-node-_0d6199ec-c0c8-d033-2fac-a01b922e34a7-b5c5a1d4 {
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr;
-}
-
-#w-node-_0d6199ec-c0c8-d033-2fac-a01b922e34a8-b5c5a1d4, #w-node-_0d6199ec-c0c8-d033-2fac-a01b922e34ae-b5c5a1d4, #w-node-_0d6199ec-c0c8-d033-2fac-a01b922e34bc-b5c5a1d4, #w-node-_0d6199ec-c0c8-d033-2fac-a01b922e34c9-b5c5a1d4 {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-}
-
-#w-node-_10ee6552-b73e-baa8-b814-10fcc79c74fb-b5c5a1d4 {
-  grid-area: 1 / 1 / 2 / 2;
-}
-
-#w-node-_10ee6552-b73e-baa8-b814-10fcc79c7505-b5c5a1d4 {
-  grid-area: 1 / 2 / 2 / 3;
-}
-
-#w-node-_10ee6552-b73e-baa8-b814-10fcc79c750d-b5c5a1d4 {
-  grid-area: 1 / 3 / 2 / 4;
-}
-
-#w-node-_10ee6552-b73e-baa8-b814-10fcc79c7515-b5c5a1d4 {
-  grid-area: 1 / 4 / 2 / 5;
-}
-
-#w-node-_58cca3f1-0170-afd0-4a64-721a56dc417e-5f6535b5 {
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr;
-}
-
-#w-node-_58cca3f1-0170-afd0-4a64-721a56dc417f-5f6535b5, #w-node-_58cca3f1-0170-afd0-4a64-721a56dc4182-5f6535b5 {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-}
-
-#w-node-_249ae1f3-8391-b4ba-5673-e080ffaee136-b5c5a1d7 {
-  grid-template-rows: auto auto auto;
-  grid-template-columns: 1fr 1fr;
-}
-
-#w-node-_249ae1f3-8391-b4ba-5673-e080ffaee137-b5c5a1d7, #w-node-_249ae1f3-8391-b4ba-5673-e080ffaee13d-b5c5a1d7, #w-node-_249ae1f3-8391-b4ba-5673-e080ffaee14b-b5c5a1d7, #w-node-_249ae1f3-8391-b4ba-5673-e080ffaee158-b5c5a1d7, #w-node-_249ae1f3-8391-b4ba-5673-e080ffaee164-b5c5a1d7, #w-node-_249ae1f3-8391-b4ba-5673-e080ffaee172-b5c5a1d7 {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-}
-
-@media screen and (max-width: 991px) {
   #w-node-_10ee6552-b73e-baa8-b814-10fcc79c750d-b5c5a1d4 {
     grid-area: 2 / 1 / 3 / 2;
   }
@@ -4017,4 +3439,78 @@ figcaption {
   #w-node-_249ae1f3-8391-b4ba-5673-e080ffaee137-b5c5a1d7, #w-node-_249ae1f3-8391-b4ba-5673-e080ffaee13d-b5c5a1d7, #w-node-_249ae1f3-8391-b4ba-5673-e080ffaee14b-b5c5a1d7, #w-node-_249ae1f3-8391-b4ba-5673-e080ffaee158-b5c5a1d7, #w-node-_249ae1f3-8391-b4ba-5673-e080ffaee164-b5c5a1d7, #w-node-_249ae1f3-8391-b4ba-5673-e080ffaee172-b5c5a1d7 {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
+}
+
+.theme-toggle {
+  width: 46px;
+  height: 46px;
+  margin: 18px auto 0;
+  padding: 11px;
+  border: 1.5px solid #d1d5db;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.72);
+  color: #111827;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  position: relative;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: background-color .25s ease, border-color .25s ease, color .25s ease, transform .25s ease, box-shadow .25s ease;
+}
+
+.theme-toggle:hover {
+  transform: translateY(-2px);
+  border-color: #9ca3af;
+  box-shadow: 0 9px 24px rgba(0, 0, 0, 0.12);
+}
+
+.theme-toggle:active {
+  transform: scale(.94);
+}
+
+.theme-toggle:focus-visible {
+  outline: 3px solid rgba(59, 130, 246, 0.35);
+  outline-offset: 3px;
+}
+
+.theme-icon {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  grid-area: 1 / 1;
+  transition: opacity .2s ease, transform .35s ease;
+}
+
+.theme-icon-moon {
+  fill: currentColor;
+  stroke: none;
+  opacity: 1;
+  transform: rotate(0deg) scale(1);
+}
+
+.theme-icon-sun {
+  opacity: 0;
+  transform: rotate(-90deg) scale(.75);
+}
+
+.theme-toggle.dark-mode {
+  background: rgba(40, 40, 40, 0.92);
+  border-color: rgba(255, 255, 255, 0.38);
+  color: #f9fafb;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
+}
+
+.theme-toggle.dark-mode .theme-icon-moon {
+  opacity: 0;
+  transform: rotate(90deg) scale(.75);
+}
+
+.theme-toggle.dark-mode .theme-icon-sun {
+  opacity: 1;
+  transform: rotate(0deg) scale(1);
 }
